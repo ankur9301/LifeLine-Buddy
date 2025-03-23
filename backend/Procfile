@@ -1,0 +1,2 @@
+web: gunicorn backend_code:app
+worker: python background_worker.py
