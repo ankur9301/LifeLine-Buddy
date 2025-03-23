@@ -1,0 +1,195 @@
+{
+    "vhGDy1m6mfeaib5zEA2O": {
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "Hello, this is 911 AI agent. What is the emergency?"
+        },
+        {
+          "role": "user",
+          "message": "There's been a hit-and-run accident on Baker Street."
+        },
+        {
+          "role": "agent",
+          "message": "Thank you. Is the injured person conscious?"
+        },
+        {
+          "role": "user",
+          "message": "No, they're unconscious and bleeding."
+        },
+        {
+          "role": "agent",
+          "message": "Please do not move the person. Help is on the way."
+        }
+      ],
+      "summary": "Caller reported a hit-and-run accident on Baker Street with a pedestrian injured and bleeding. The agent advised not to move the injured person while help is en route.",
+      "encoded_audio": "Hello",
+      "emergency_title": "Traffic Accident",
+      "severity": "High",
+      "color": { "fear": 0.8, "confusion": 0.2 },
+      "phone_number": "+18444104077",
+      "location": "221B Baker Street, London, NW1 6XE",
+      "time_of_call": "2025-03-19T03:41:19.942855+00:00"
+    },
+    "aBcD12345EfGhIjKlMn": {
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "911 AI agent here, please describe your emergency."
+        },
+        {
+          "role": "user",
+          "message": "There's a fire in the apartment building on Pennsylvania Avenue."
+        },
+        {
+          "role": "agent",
+          "message": "Are there any people trapped inside?"
+        },
+        {
+          "role": "user",
+          "message": "Yes, several residents are calling for help from the upper floors."
+        },
+        {
+          "role": "agent",
+          "message": "Fire services are being dispatched immediately. Please evacuate if it is safe."
+        }
+      ],
+      "summary": "Caller reported a fire in an apartment building on Pennsylvania Avenue with residents trapped on upper floors. Emergency services are being dispatched.",
+      "encoded_audio": "FireAlertEncoded",
+      "emergency_title": "Fire Incident",
+      "severity": "High",
+      "color": { "fear": 0.9, "confusion": 0.5 },
+      "phone_number": "+11234567890",
+      "location": "1600 Pennsylvania Avenue NW, Washington, DC 20500",
+      "time_of_call": "2025-03-19T04:15:22.123456+00:00"
+    },
+    "XyZ98765TuvWxy": {
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "This is 911 AI agent, what's your emergency?"
+        },
+        {
+          "role": "user",
+          "message": "My father is having severe chest pains and shortness of breath."
+        },
+        {
+          "role": "agent",
+          "message": "Please stay calm. Is he conscious?"
+        },
+        {
+          "role": "user",
+          "message": "He is, but he’s in a lot of pain."
+        },
+        {
+          "role": "agent",
+          "message": "An ambulance is on the way. Keep him calm and comfortable."
+        }
+      ],
+      "summary": "Caller reported a medical emergency involving severe chest pain and shortness of breath. An ambulance has been dispatched.",
+      "encoded_audio": "MedUrgencyData",
+      "emergency_title": "Medical Emergency",
+      "severity": "High",
+      "color": { "fear": 0.6, "confusion": 0.3 },
+      "phone_number": "+19876543210",
+      "location": "350 5th Ave, New York, NY 10118",
+      "time_of_call": "2025-03-19T05:05:10.654321+00:00"
+    },
+    "PQR54321LMN678": {
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "911 AI agent, how may I help you?"
+        },
+        {
+          "role": "user",
+          "message": "I'm witnessing a robbery at the downtown bank on 1 Infinite Loop."
+        },
+        {
+          "role": "agent",
+          "message": "Are you in a safe location?"
+        },
+        {
+          "role": "user",
+          "message": "Yes, I'm across the street, but the suspects are armed."
+        },
+        {
+          "role": "agent",
+          "message": "Stay where you are and keep your distance. Law enforcement is being notified."
+        }
+      ],
+      "summary": "A witness reported an armed robbery at the downtown bank near 1 Infinite Loop. The agent advised the caller to remain safe while help is on the way.",
+      "encoded_audio": "RobberyAudioSignal",
+      "emergency_title": "Armed Robbery",
+      "severity": "Medium",
+      "color": { "fear": 0.85, "confusion": 0.4 },
+      "phone_number": "+15551234567",
+      "location": "1 Infinite Loop, Cupertino, CA 95014",
+      "time_of_call": "2025-03-19T06:30:45.000000+00:00"
+    },
+    "LMN34567OPQ890": {
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "911 AI agent, what is your emergency?"
+        },
+        {
+          "role": "user",
+          "message": "There's a domestic disturbance at my neighbor's house on Amphitheatre Parkway."
+        },
+        {
+          "role": "agent",
+          "message": "Are you in immediate danger?"
+        },
+        {
+          "role": "user",
+          "message": "I'm not, but the situation is escalating with loud arguments."
+        },
+        {
+          "role": "agent",
+          "message": "We're sending help. Please stay safe and keep a safe distance."
+        }
+      ],
+      "summary": "Caller reported a domestic disturbance near Amphitheatre Parkway with escalating conflict. Emergency services are being dispatched to ensure safety.",
+      "encoded_audio": "DisturbanceSignal",
+      "emergency_title": "Domestic Disturbance",
+      "severity": "Medium",
+      "color": { "fear": 0.5, "confusion": 0.6 },
+      "phone_number": "+17654321098",
+      "location": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+      "time_of_call": "2025-03-19T07:45:30.789012+00:00"
+    },
+    "RST12345UVW678": {
+      "transcript": [
+        {
+          "role": "agent",
+          "message": "911 AI agent speaking, what is the emergency?"
+        },
+        {
+          "role": "user",
+          "message": "There's been a multi-car collision on Pennsylvania Plaza."
+        },
+        {
+          "role": "agent",
+          "message": "Are there any injuries?"
+        },
+        {
+          "role": "user",
+          "message": "Yes, several people are injured and some are trapped in the wreckage."
+        },
+        {
+          "role": "agent",
+          "message": "Stay on the line. Emergency services and rescue teams are being mobilized immediately."
+        }
+      ],
+      "summary": "Caller reported a multi-vehicle collision near Pennsylvania Plaza with several injuries and trapped victims. Emergency response teams have been activated.",
+      "encoded_audio": "AccidentEncodedData",
+      "emergency_title": "Multi-Vehicle Collision",
+      "severity": "High",
+      "color": { "fear": 0.7, "confusion": 0.5 },
+      "phone_number": "+12349876543",
+      "location": "4 Pennsylvania Plaza, New York, NY 10001",
+      "time_of_call": "2025-03-19T08:20:15.333333+00:00"
+    }
+  }
+  
