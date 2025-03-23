@@ -59,14 +59,17 @@ export const HeroParallax = ({ items }: { items: Item[] }) => {
         </motion.h1>
 
         <motion.p
-          style={{
-            opacity: descriptionOpacity,
-            y: descriptionY,
-          }}
-          className="mx-auto mt-6 max-w-xl text-center text-lg text-muted-foreground"
-        >
-          LifeLine Buddy works hand-in-hand with emergency operators to reduce response times, prioritize urgent calls, and provide real-time support during high-stress situations.
-        </motion.p>
+  style={{
+    opacity: descriptionOpacity,
+    y: descriptionY,
+  }}
+  className="mx-auto mt-6 max-w-xl text-center text-lg text-cyan-400"
+>Call
+  <span className="font-bold"> 234-265-9301</span> to connect with our <span className="font-bold">LifeLine Buddy</span> 911-Simulated AI Agent.<br />
+  It will gather key emergency details from your voice.<br />
+  You can then view the live conversation and AI response by clicking "Try Demo" on this page.
+</motion.p>
+
 
         <div className="mt-12 flex flex-wrap justify-center gap-8">
           {items.map((item, index) => (
