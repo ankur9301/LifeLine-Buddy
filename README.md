@@ -45,7 +45,7 @@ LifeLine Buddy supports dispatchers with real-time AI insights:
 - 🧠 **AI Assessment** – Emotion & urgency detection (via Gemini)
 - 🚓 **One-Click Dispatch** – Police, Firefighters, Paramedics
 - 🎙️ **Live Transcript & Audio** – Realtime transcript + playback
-- 📍 **Interactive Map** – Emergency location with Mapbox
+- 📍 **Interactive Map** – Emergency location with Google Maps API
 - ✅ **Case Management** – Close or transfer emergencies
 - ⚡ **Smooth Animations** – Transitions via Framer Motion
 
@@ -58,7 +58,7 @@ LifeLine Buddy supports dispatchers with real-time AI insights:
 | Frontend         | React, TypeScript                                                                 |
 | Styling          | Tailwind CSS, Shadcn/UI, Radix UI                                                  |
 | Animation        | Framer Motion                                                                      |
-| Maps             | Mapbox GL JS                                                                       |
+| Maps             | Google Maps API GL JS                                                                       |
 | Audio            | HTML5 `<audio>` with Play/Pause                                                    |
 | State Management | React Hooks (`useState`, `useEffect`, `useMemo`)                                   |
 | Components       | Reusable UI (Buttons, Cards, Badges, Inputs)                                       |
@@ -138,7 +138,7 @@ python3 backend_code.py
 4. **Configure .env (optional)**
 If you plan to use a real backend or Google Map API:
 ```env
-NEXT_PUBLIC_MAPBOX_TOKEN=your_google__map_api_token_here
+NEXT_PUBLIC_Google Maps API_TOKEN=your_google__map_api_token_here
 BACKEND_URL=https://your-api-url
 ```
 
@@ -166,7 +166,7 @@ BACKEND_URL=https://your-api-url
 
 - [Shadcn/UI](https://ui.shadcn.com/) for headless UI components
 - [Framer Motion](https://www.framer.com/motion/) for delightful animations
-- Google Maps API for dynamic mapping
+- Google Maps API API for dynamic mapping
 
 ---
 
