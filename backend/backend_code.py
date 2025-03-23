@@ -40,6 +40,8 @@ def extract_dict_from_response(response_text):
 app = Flask(__name__)
 CORS(app)
 
+# Removed API keys and MongoDB uri for security reasons
+
 # --- API Keys & Agent ---
 agent_id = ""
 eleven_labs_api_key = ""
