@@ -40,7 +40,7 @@ export function EmergencyMap({
   const [mapInteractionHint, setMapInteractionHint] = useState(true);
   // NEW: track if user has manually interacted (panned/zoomed) the map.
   const [hasUserInteracted, setHasUserInteracted] = useState(false);
-  const apiKey = "AIzaSyCsPL2l1E1jk9gwwOuVc5h8hwpvLKlFIpw";
+  const apiKey = "";
 
   // INITIALIZE MAP
   useEffect(() => {
